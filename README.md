@@ -13,7 +13,7 @@ php -S 0.0.0.0:3000 index.html
 
 This will launch index.html, which will redirect to the landing page. 
 
-A SQL database must be implemented using the SQL script provided in order for the access points and the login/logout functionality to work.
+A SQL database must be implemented using ```script_public_information.sql``` in order for the access points and the login/logout functionality to work.
 
 ## Developers
 
