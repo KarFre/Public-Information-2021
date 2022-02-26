@@ -1,0 +1,243 @@
+/*Navbar styling*/
+.margin-fix {
+    background-color:  rgba(255, 255, 255, 0.25);
+    background-repeat: repeat;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+}
+.big-header {
+    font-size: 64px;
+    font-family: "Fondamento", cursive;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.navbar{
+    background-color:#BF3604;
+    font-size: medium;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #eeecec !important;
+}
+
+.navbar a:hover {
+    color: #F2C063 !important;
+}
+
+.navbar a:focus {
+    background-color: rgba(242, 192, 99, 0.75) !important;
+}
+
+.dropdown-menu li a {
+    color: black !important;
+}
+
+.dropdown-menu li a:hover {
+    color: gray !important;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+    height: 1500px
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    padding: 15px;
+    background-color: #494949;
+    height: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #bb00ff;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+
+/* Add a gray background color with some padding */
+
+body {
+    font-family: "Benne", serif;
+    background-color: #F2E2CE;
+    font-size: 18px;
+}
+
+.panel p {
+    font-size: 18px;;
+}
+
+.custom-font-size p{
+    font-size: 18px;
+}
+/* Header/Blog Title */
+
+.header {
+    width: 100%;
+    background: #F2E2CE;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+
+/* Left column */
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+
+/* Right column */
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+
+/* Fake image */
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Add a card effect for articles */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color:#eeecec;
+    background:#BF3604;
+    margin-top: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+.tagh6 {
+    font-family: Andale Mono, monospace;
+    font-size: medium;
+}
+
+/*Information carousel styling*/
+.info-wheel {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Link styling for carousel*/
+.help-list {
+    list-style-type: none;
+}
+.help-list li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.help-list li a:hover {     color:#F2C063;
+}
+
+/*Styling for forms*/
+
+.form-style {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid darkgray;
+}
+input.form-style {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.form-horizontal .form-group input, 
+.form-horizontal .form-group select,
+.form-horizontal .form-group label
+ { 
+    height: 14px;
+    line-height: 14px;
+}
+
+/* Styling for pills */
+.nav-pills a {
+    color: #BF3604;
+}
+
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover {
+    color: black;
+    background-color: #BF3604;
+}
